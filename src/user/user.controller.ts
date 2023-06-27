@@ -13,7 +13,7 @@ import {
 import { UserService } from './user.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { IdValidationPipe } from '../pipes/id-validation.pipe';
+import { IdValidationPipe } from '../global/pipes/id-validation.pipe';
 
 @Controller('user')
 export class UserController {

@@ -5,7 +5,7 @@ import {
   PipeTransform,
 } from '@nestjs/common';
 import { Types } from 'mongoose';
-import { HttpMessages } from '../common/http-messages';
+import { HttpMessages } from '../../common/http-messages';
 
 export class IdValidationPipe implements PipeTransform {
   transform(value: any, metadata: ArgumentMetadata): any {
