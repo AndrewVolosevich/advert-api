@@ -7,6 +7,8 @@ import { getMongoConfig } from '../configs/mongo.config';
 import { UserModule } from './user/user.module';
 import { RubricModule } from './rubric/rubric.module';
 import { CategoryModule } from './category/category.module';
+import { BaseAdvertModule } from './base-advert/base-advert.module';
+import { SubcategoryModule } from './subcategory/subcategory.module';
 
 @Module({
   imports: [
@@ -19,6 +21,8 @@ import { CategoryModule } from './category/category.module';
     UserModule,
     RubricModule,
     CategoryModule,
+    BaseAdvertModule,
+    SubcategoryModule,
   ],
   controllers: [AppController],
   providers: [AppService],
